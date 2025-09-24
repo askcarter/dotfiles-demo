@@ -1,6 +1,11 @@
 #!/bin/bash
 
-echo "Hello World" > /tmp/hello
+set -euo pipefail
 
-echo "set -o vi" >> ~/.bashrc
+if ! command -v chemoi >/dev/null; then
+    sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply https://github.com/askcarter/dotfiles-demo.git
+fi
 
+# echo "set -o vi" >> ~/.bashrc
+
+exit 0
