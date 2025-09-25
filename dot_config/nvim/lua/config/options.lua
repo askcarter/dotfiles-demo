@@ -7,4 +7,4 @@ vim.opt.ignorecase = true -- make command search case insensitive
 -- vim.opt.number = false
 vim.opt.scrolloff = 8 -- scroll from the middle of the screen
 
-vim.opt.listchars = false -- remove trailing white space chars and other space chars
+vim.opt.list = false -- remove trailing white space chars and other space chars)
