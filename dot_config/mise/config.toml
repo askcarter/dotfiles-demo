@@ -1,3 +1,13 @@
 [tools]
 bat = "latest"
+lsd = "latest"
+ripgrep = "latest"
+lazygit = "latest"
+fzf = "latest"
+fd = "latest"
+neovim = "0.10.4"
+usage = "latest" 
 chezmoi = "latest"
+# node = "latest"
+
+# "ubi:fluxcd/flux2" = { version = "latest", exe = "flux" }
